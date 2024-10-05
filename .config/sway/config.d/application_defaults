@@ -1,0 +1,12 @@
+for_window [shell="xwayland"] title_format "[XWayland] %title"
+
+# set floating (nontiling) for apps expecting to work in that mode:
+for_window [app_id="blueman-manager"] floating enable, resize set width 40 ppt height 30 ppt
+for_window [app_id="pavucontrol"] floating enable, resize set width 40 ppt height 30 ppt
+for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+for_window [app_id="mpv"] floating enable, resize set 600 400
+for_window [app_id="imv"] floating enable
+for_window [app_id="virt-manager"] floating enable
+for_window [class="network-manager-gnome"] floating enable
+for_window [app_id="nm-connection-editor"] floating enable
+

@@ -1,0 +1,5 @@
+exec {
+    gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+    gsettings set org.x.apps.portal color-scheme "prefer-dark"
+	
+}
