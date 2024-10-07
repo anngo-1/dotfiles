@@ -1,5 +1,5 @@
-## Sway Config
+## config
 
-This is a minimalistic sway configuration. It uses xfce4-terminal, pavucontrol, blueman, rofi, and waybar.
+This is my personal hyprland and sway configurations.
 
-The waybar included in this repository borrows from this tutorial [here](https://linuxconfig.org/how-to-install-configure-and-customize-waybar-on-linux), with an added on bluetooth manager that interfaces with blueman when clicked. 
+The hyprland dots are from [JakooLit's hyprland dots](https://github.com/JaKooLit/Hyprland-Dots). The waybar and terminal are configured to use the Catppuccin mocha blue theme.
