@@ -1,0 +1,13 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/20241007_01h00m09s_grim.png
+Name1[$e]=20241007_01h00m09s_grim.png
+
+[SideBar]
+InformationSplitterSizes=0,0

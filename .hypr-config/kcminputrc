@@ -1,0 +1,5 @@
+[Libinput][2][14][ETPS/2 Elantech Touchpad]
+ClickMethod=2
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+TapToClick=false
