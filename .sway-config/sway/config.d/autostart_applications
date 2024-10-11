@@ -1,8 +1,7 @@
 # Desktop notifications
 exec mako
-
+exec python3 /home/an/scripts/main.py
 # Network Applet
 exec nm-applet
-
 # Bluetooth (it will fail if doesn't exist but don't worry)
 exec blueman-applet
