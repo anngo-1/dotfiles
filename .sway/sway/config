@@ -48,7 +48,7 @@ client.unfocused         $col_focs_brdr  $col_focs_back$mop $col_focs_text $col_
 client.urgent            $col_focs_brdr  $col_focs_back$mop $col_focs_text $col_focs_indt $col_focs_cbdr
 
 ### Background image
-output eDP-1 scale $scale 
+output eDP-1 scale $scale bg '/home/an/.config/sway/wallpapers/wallpaper.jpeg' fill 
 ### Lock screen
 exec swayidle -w \
 	timeout 600 '~/.config/swaylock/lock.sh' \
@@ -95,7 +95,7 @@ bindsym Print exec grim $HOME/latest-screenshot.png | notify-send -u low -a "Scr
 bindsym $mod+Print exec slurp | grim -g - $HOME/latest-screenshot.png | notify-send -u low -a "Screenshot taken" -c "grim" "Screenshot taken" "Saved at ~/latest-screenshot.png"
 
 # Start a terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec xfce4-terminal 
 
 # Kill focused window
 bindsym $mod+q kill
