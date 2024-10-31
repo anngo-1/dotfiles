@@ -80,8 +80,8 @@ output "DP-1" {
 
 ### Lock screen
 exec swayidle -w \
-    timeout 300 'swaylock -c 000000' \
     timeout 300 'swaymsg "output * dpms off"' \
+    timeout 600 'swaymsg "output * dpms on"; swaylock -c 000000; swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"'
 
 ### Keyboard layout
@@ -169,9 +169,9 @@ workspace 2 output HDMI-A-1
 workspace 3 output HDMI-A-1
 workspace 4 output HDMI-A-1
 workspace 5 output HDMI-A-1
-workspace 6 output DP-1 
+workspace 6 output HDMI-A-1 
 workspace 7 output DP-1 
-workspace 8 output DP-2 
+workspace 8 output DP-1 
 workspace 9 output DP-2 
 workspace 10 output DP-2 
 # Switch to workspace
