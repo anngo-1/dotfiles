@@ -7,14 +7,17 @@
 		"sway/workspaces",
 		"sway/window"
 	],
+	"modules-center": [
+	"clock#date",
+	"clock#time"
 
+
+	],
 	"modules-right": [
 		"pulseaudio",
 		"network",
 		"battery",
-		"tray",
-		"clock#date",
-		"clock#time"
+		"tray"
 	],
 
 	// Modules

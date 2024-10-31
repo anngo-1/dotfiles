@@ -35,8 +35,8 @@
 #waybar {
   background: @background;
   color: @text;
-  font-family: JetBrains Mono ;
-  font-size: 10pt;
+  font-family:Monospace;
+  font-size: 8pt;
   font-weight:bold 
 }
 
@@ -87,8 +87,9 @@ cpu,
   color: @warning;
 }
 
+@define-color ohmyzsh-red #FF5555;
 
-/* Workspaces stuff */
+/* Workspaces styles */
 #workspaces {
   margin-right: 5pt;
 }
@@ -106,21 +107,19 @@ cpu,
 }
 
 #workspaces button.focused {
-  background: @critical;
-  color: @text;
+  background: @background;
+  color: @ohmyzsh-red; /* oh-my-zsh red text */
 }
 
 #workspaces button.urgent {
-  background: @critical;
-  color: @text;
+  background: @background;
+  color: @ohmyzsh-red; /* oh-my-zsh red text */
 }
 
 #workspaces button:hover {
   background: @background;
   color: @text;
 }
-
-
 #window {
   margin-left: 5pt;
   margin-right: 35pt;
